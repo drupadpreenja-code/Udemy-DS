@@ -8,4 +8,4 @@ _This repo consists of some of the Problems and their implementation in various 
 
 | S.No. | Problem                     | Solution Link                                                                                                        | 
 | ----- | --------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 1     | A Note on Sorting           | [Java](#)[Apex](#)|
+| 1     | A Note on Sorting           | Java, Apex |
