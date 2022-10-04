@@ -10,3 +10,4 @@ _This repo consists of some of the Problems and their implementation in various 
 | ----- | -------- | ----------------------------------------------------------------------- |
 | 1     | Pairs    | [Java](Solutions_Java/Solutions/src/SumPair.java), Apex                 |
 | 2     | Triplets | [Java](Solutions_Java/Solutions/src/TripletsDistinctOrdered.java), Apex |
+| 3     | Mountain | [Java](Solutions_Java/Solutions/src/MountainArray.java), Apex           |
