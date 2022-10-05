@@ -28,7 +28,7 @@ public class Rain {
 	/*
 	 * Given n non-negative integers representing an elevation map where in
 	 * the width of each bar is 1. Compute how much water it can trap after raining.
-	 * |                            _____
+	 * |							_____
 	 * |			_____			|	|
 	 * |			|	|			|	|
 	 * |	_____	|	|____	____|	|
