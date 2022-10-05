@@ -16,6 +16,12 @@ public class SumPair {
 		return null;
 	}
 
+	/*
+	 * Given an array ontaing N integers, and a number S denoting a target sum.
+	 * 
+	 * Find two distinct integers that can pair up to form target sum. Let us
+	 * assume there will only be one such pair.
+	 */
 	public static void main() {
 		System.out.println("Solution");
 		int[] result = (new SumPair()).getpair(new int[] { 10, 5, 2, 3, -6, 9, 11 }, 4);

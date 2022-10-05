@@ -30,6 +30,13 @@ public class TripletsDistinctOrdered {
 		return result;
 	}
 
+	/*
+	 * Given an array ontaing N integers, and a number S denoting a target sum.
+	 * 
+	 * Find all distinct integers at can add up to form arget sum. he numbers
+	 * in each triplet should be ordered in ascending order, triplets should be
+	 * ordered too. Return empty array of no such triplets exist.
+	 */
 	public static void main() {
 		System.out.println("Solution");
 		List<int[]> result = (new TripletsDistinctOrdered())

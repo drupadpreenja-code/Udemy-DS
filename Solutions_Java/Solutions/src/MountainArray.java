@@ -23,6 +23,15 @@ public class MountainArray {
 		return result;
 	}
 
+	/*
+	 * Write a function that takes input an array of distinct integers, and return
+	 * the length of the highest mountain.
+	 * 
+	 * A mountain is defined as adjacent inetgers that are strictly increasing until
+	 * they reach a peak, at which it becomes strictly decreasing.
+	 * 
+	 * At least 3 numbers are required to form a mountain.
+	 */
 	public static void main() {
 		System.out.println("Solution");
 		int result = (new MountainArray())
