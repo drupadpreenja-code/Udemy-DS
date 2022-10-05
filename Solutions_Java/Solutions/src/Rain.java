@@ -28,13 +28,13 @@ public class Rain {
 	/*
 	 * Given n non-negative integers representing an elevation map where in
 	 * the width of each bar is 1. Compute how much water it can trap after raining.
-	 * |							_____
-	 * |			_____			|	|
-	 * |			|	|			|	|
-	 * |	_____	|	|____	____|	|
-	 * |	|	|	|	|	|	|	|	|
-	 * |	|	|	|	|	|	|	|	|
-	 * |____|___|___|___|___|___|___|___|_____
+	 * |								_	
+	 * |				_			|		|
+	 * |			|		|		|		|
+	 * |		_	|		|		|		|	_	
+	 * |	|		|		|		|		|		|
+	 * |	|		|		|		|		|		|
+	 * |____|_______|_______|_______|_______|_______|______
 	 */
 	public static void main() {
 		System.out.println("Solution");
