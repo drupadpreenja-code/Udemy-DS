@@ -13,4 +13,5 @@ _This repo consists of some of the Problems and their implementation in various 
 | 3     | Mountain       | [Java](Solutions_Java/Solutions/src/MountainArray.java), Apex           |
 | 4     | Longest Band   | [Java](Solutions_Java/Solutions/src/LongestBand.java), Apex             |
 | 5     | Rain           | [Java](Solutions_Java/Solutions/src/Rain.java), Apex                    |
-| 5     | Sub array Sort | [Java](Solutions_Java/Solutions/src/SubArraySort.java), Apex            |
+| 6     | Sub Array Sort | [Java](Solutions_Java/Solutions/src/SubArraySort.java), Apex            |
+| 7     | Min Swaps      | [Java](Solutions_Java/Solutions/src/MinSwaps.java), Apex                |
