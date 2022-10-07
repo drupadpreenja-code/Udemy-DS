@@ -1,7 +1,34 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 public class MinSwaps {
 	private int getMinimumSwaps(int[] arr) {
-		// TODO
-		return 0;
+		int result = 0;
+		Map<Integer, Integer> sortedIndex = new HashMap<>();
+		for (int i = 0; i < arr.length; i++) {
+			sortedIndex.put(arr[i], i);
+		}
+		Boolean[] visited = new Boolean[arr.length];
+		Arrays.fill(visited, Boolean.FALSE);
+
+		Arrays.sort(arr);
+
+		for (int i = 0; i < arr.length; i++) {
+			if (visited[i] || i == sortedIndex.get(arr[i])) {
+				continue;
+			}
+
+			int node = i;
+			int cycle = 0;
+			while (!visited[node]) {
+				visited[node] = true;
+				node = sortedIndex.get(arr[node]);
+				cycle++;
+			}
+			result += (cycle - 1);
+		}
+		return result;
 	}
 
 	/*
